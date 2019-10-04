@@ -1,0 +1,252 @@
+HTML
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+<div class="container">
+<img src="ZeForge_Logo WHITE.png" alt="">
+<div class="container2">
+
+  <div class="middle1">
+    <div class="header1">
+      <div class="buttons">
+
+
+      <div class="button1">About Us  </div>
+      <div class="button2">Products  </div>
+      <div class="button3">Services  </div>
+      <div class="button4">News </div>
+      <div class="button5">Contact </div>
+
+      </div>
+        <div class="txt">
+          <h1>Hello, World!</h1>
+          <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+          <br>
+          <p><strong>It uses utility classes for typography and spacing to space content out within the larger container.</strong></p>
+          <p><button type="button" class="btn btn-danger">Learn more</button></p>
+        </div>
+
+      <div class="middle2">
+        <div class="cont1"><p>    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p></div>
+        <div class="cont2"><p>    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p></div>
+        <div class="cont3"><p>    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p> </div>
+
+      </div>
+    </div>
+
+
+
+  </div>
+  <div class="middle3">
+    <div class="bts">
+
+   <!-- <p>Clothes <br>Movies <br />Books <br />Computer<br />Electronics<br />Home/Garden<br />Home/Garden<br />Health/Beauty<br />Toys<br />Sport/Outdoor</p> -->
+    <div class="btn1">Clothes</div>
+    <div class="btn2">Movies</div>
+    <div class="btn3">Books</div>
+    <div class="btn4">Computer</div>
+    <div class="btn5">Electronics</div>
+    <div class="btn6">Home/Garden</div>
+    <div class="btn7">Health/Beauty</div>
+    <div class="btn8">Toys</div>
+    <div class="btn9">Sport/Outdoor</div>
+
+
+  </div>
+
+  <div class="text">
+    <!-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.   </p> -->
+  </div>
+  <!-- <div class="imgs">
+  <div class="st"><img src="folder.png" alt=""></div>
+<div class="2st"><img src="file.png" alt=""></div>
+<div class="3st"><img src="trash-bin.png" alt=""></div>
+</div> -->
+
+<div class="count3">
+  <h3>Managment Consulting</h3>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+</div>
+<div class="count4">
+  <h3>Market Assessment</h3>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+
+</div>
+</div>
+
+</div>
+  </body>
+</html>
+
+
+
+
+CSS
+
+
+*{
+  padding: 0;
+  margin:0;
+  font-family: Helvetica, sans-serif;
+}
+
+.container{
+  background-color: gray;
+  height: 100%;
+  width: 100%;
+}
+
+.container img{
+  height: 55px;
+  width: 160px;
+  margin: 0 140px;
+  margin-top: 20px;
+}
+
+.container2{
+  width: 650px;
+  height:1480px;
+  margin: auto;
+  top: 3%;
+  padding-top: 10px;
+}
+.middle1{
+  height: 370px;
+  width: 650px;
+  background-color: yellow;
+  border-radius: 10px;
+  border:2px solid white ;
+  margin: auto;
+  position: relative;
+
+}
+
+.header1{
+  background-color: orange;
+  width: 100%;
+  height:40px;
+  border-radius: 5px;
+  font-size: 13px;
+  color: white;
+}
+.button1,
+.button2,
+.button3,
+.button4,
+.button5{
+  float: left;
+  padding:10px 25px 30px 50px;
+  border-left: 1px solid white;
+}
+.txt h1,
+.txt p{
+  color: black;
+}
+
+.txt{
+  margin-left: 300px;
+  clear: both;
+  padding-top: 40px;
+}
+
+.middle2{
+  background-color: white;
+  width: 100%;
+  height:1050px;
+  clear: both;
+  border:2px solid white;
+  margin-top: 45px;
+
+}
+
+.cont1,
+.cont2,
+.cont3{
+  padding: 20px 20px 0 20px;
+  margin:7px 7px 0 7px;
+  background-color: gray;
+  width: 200px;
+  height: 200px;
+  float: left;
+  font-size: 12px;
+}
+
+.middle3 {
+height: 270px;
+width: 100%;
+position: relative;
+margin: auto;
+padding: 250px 0 0 0;
+margin-top: 50px;
+}
+
+.bts{
+
+  width: 180px;
+  color: gray;
+  padding-bottom: 20px;
+  font-size: 13px;
+  border-right: 1px gray solid;
+
+}
+.btn1,
+.btn2,
+.btn3,
+.btn4,
+.btn5,
+.btn6,
+.btn7,
+.btn8,
+.btn9{
+  padding-left:60px;
+  padding-bottom: 8px;
+
+}
+
+/* .text{
+height: 220px;
+width: 250px;
+margin:auto;
+background-color: red;
+text-align: center;
+
+} */
+
+.text p{
+  font-size: 12px;
+  color:gray;
+ }/*
+.st{
+  float: left;
+
+}
+.imgs{
+  width:80px;
+  height: 100px;
+} */
+
+
+.count3,
+.count4{
+  background-color: red;
+  height: 250px;
+  width: 320px;
+  font-size: 14px;
+  color: white;
+  padding: 15px 15px 15px 15px;
+  margin:0 10px;
+
+}
+.count4{
+  float: right;
+}
+
+

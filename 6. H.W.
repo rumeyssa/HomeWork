@@ -1,0 +1,278 @@
+HTML
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hellou</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+          <img src="https://spark.ba/wp-content/uploads/2017/12/ZeForge_Logo.png" alt="">
+            <!-- <div class="">Home</div>
+            <div class="">About Us</div>
+            <div class="">Our Game</div>
+            <div class="">Contact</div> -->
+            <div class="top">
+
+              <form class="ex" action="/action_page.php" style="margin:auto;max-width:300px">
+              <input type="text" placeholder="Search.." name="search2">
+              <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+
+                <div class="con">Contact</div>
+                <div class="og">Our Game</div>
+                <div class="bs">About Us</div>
+                <div class="home">Home</div>
+                <!-- <input class="search"type="text" placeholder="Search.."> -->
+
+
+              </div>
+
+    </div>
+
+    <div class="next">
+        <div class="row">
+            <img src="https://odis.homeaway.com/odis/homepage/644873f3-544d-4bfb-b19b-a673308b7373.hw5.jpg" alt="">
+            <h2 class="heading">A beautiful vacation <br>photos awaits you</h2>
+            <p><br>As soon as you <br> finish Academy <br> <br>
+            Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit,
+            sed do eiusmod tempor <br> incididunt ut labore et dolore magna <br> aliqua.
+            Ut enim ad minim veniam, quis <br>nostrud exercitation ullamco laboris
+            nisi <br>ut aliquip ex ea commodo consequat. </p>
+            <input class="none" name=""   value="" >
+            <a href="form.html"><button class="button1"><strong>Apply Now</strong></button></a>
+        </div>
+    </div>
+    <br>
+    <div class="memo">
+      <h3>Who Attends ZeForge Academy?  <br><br> </h3>
+    </div>
+
+    <hr>
+    <div class="text">
+      <br>
+      <br>
+      <img classs="somthn"src="rocket.png" alt="">
+      <img src="epro.png" alt="">
+      <img src="teacher.png" alt="">
+
+    </div>
+    <div class="cont">
+      <div class="middle1">
+        <h2 class="uno">The Magnificents</h2>
+        <h2 class="due">Cool People</h2>
+
+
+
+      </div>
+    </div>
+
+
+<div class="middle2">
+        <div class="paragraph1">
+          <br>
+          <br>
+          <br>
+          <p>Lorem ipsum dolor sit amet, <br>consectetur
+             adipisicing elit, sed do <br>eiusmod tempor
+              incididunt ut labore<br> et dolore magna aliqua. <br>
+               Ut enim ad minim veniam, quis nostrud <br>
+                exercitation ullamco <br>laboris nisi ut aliquip <br>
+                 ex ea commodo consequat.<br> Duis aute irure dolor
+                  in reprehenderit <br>in voluptate
+                   velit esse cillum<br> dolore eufugiat nulla pariatur.</p>
+        </div>
+  </div>
+
+  </div>
+
+
+
+</div>
+  </body>
+</html>
+
+
+
+
+
+CSS
+
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: helvetica,sans-serif;
+}
+
+.header{
+  width: 100%;
+  height: 70px;
+  position: absolute;
+
+}
+
+.header img{
+  height: 50px;
+  width: 160px;
+  padding: 6px 0 0 160px;
+}
+
+.top{
+  float: right;
+  padding: 23px 29px 0 50px;
+  margin-right: 50px;
+  color: gray;
+
+}
+.home,
+.bs,
+.con,
+.og,
+.ex{
+  float: right;
+  padding: 0 20px;
+}
+
+.row{
+  position: relative;
+}
+.row img{
+  width: 100%;
+  height: 500px;
+  padding-top: 60px;
+}
+
+.heading,
+ p{
+  color: white;
+  position: absolute;
+}
+.heading{
+  top:33%;
+  color: white;
+  margin-left: 165px;
+}
+.button1:hover{
+  background-color: orange;
+}
+.row p{
+  top:44%;
+  margin-left: 165px;
+  font-size: 14px;
+}
+.button1{
+  width: 190px;
+  height: 30px;
+  background-color: rgb(255,215,0);
+  top: 77%;
+  margin:auto;
+  position: absolute;
+  padding: 2px 10px 0  0;
+  color: white;
+  border-radius: 13px;
+
+}
+
+.memo h3{
+  color: gray;
+  padding: 10px;
+  margin-left: 155px;
+}
+hr{
+  margin-left: 170px;
+}
+
+.text img{
+  height: 37px;
+  width: 35px;
+  padding: 0  158px 20px;
+  color: gray;
+
+}
+
+.cont  h2 {
+  height: 35px;
+  width: 200px   ;
+  /* margin: 0  158px 0  ; */
+  color: gray;
+  font-size: 20px;
+  /* background-color: red; */
+
+}
+
+.uno{
+  float: left;
+  margin-left: 158px;
+}
+.due{
+float:right;
+margin-right:380px;
+}
+.tre{
+float: right;
+
+}
+
+.txt p{
+  color: gray;
+}
+
+ .middle2 {
+  height: 230px;
+  width: 220px;
+  /* background-color: blue; */
+  margin-left: 158px;
+  font-size: 13px;
+  padding: 10px 10px 10px 10px;
+
+}
+.middle2 p,
+.middle3 p{
+  color: gray;
+}
+
+.middle3{
+  height: 230px;
+  width: 220px;
+  /* background-color: blue; */
+  margin-left: 480px;
+  font-size: 13px;
+  padding: 10px 10px 10px 10px;
+  position:
+
+}
+
+/* 
+.big{
+  width: 100%;
+  height:300px;
+  background-color: blue;
+  margin-top: 30px;
+  margin: auto;
+
+}
+
+.big1{
+  width: 800px;
+  height: 300px;
+  position: relative;
+  margin: auto;
+  top:20%;
+  background-color: red;
+
+}
+
+.big2{
+  height: 230px;
+  width: 220px;
+  background-color: green;
+}
+.big3{
+  height: 230px;
+  width: 220px;
+  background-color: green;
+  float: right;
+} */
